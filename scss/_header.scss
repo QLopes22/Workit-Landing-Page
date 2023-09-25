@@ -1,0 +1,27 @@
+//  nav bar 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+nav > span {
+    color: green;
+}
+
+.logo {
+    width: 5.9rem;
+    height: 1.538rem;
+}
+
+// hero section
+.hero-sec{
+    color: white;
+ }
+
+ .hero-sec > h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+ }
