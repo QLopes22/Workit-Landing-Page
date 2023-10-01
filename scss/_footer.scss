@@ -1,7 +1,11 @@
-
 .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 74px auto;
+    align-items: center;
     width: 116px;
-    height: 102.22px;
+    height: 102.224px;
 }
 
 .footer-img {
@@ -11,4 +15,5 @@
 .social-container {
     display: flex;
     justify-content: space-between;
+    width: 116px;
 }

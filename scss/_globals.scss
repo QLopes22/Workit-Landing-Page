@@ -32,12 +32,14 @@ a {
     color: white;
 }
 
-
-button {
+.nav-span{
     &:hover {
-        color:#24053E;
-        border: 1px solid #44FFA1;
+        color:#44FFA1;
     }
+}
+
+
+button, .button {
     background-color:#44FFA1;
     border: none;
     color: #24053E;
@@ -46,7 +48,15 @@ button {
     font-size: 1rem;
     font-weight: bold;
     line-height: 32px;
+    cursor: pointer;
+    &:hover {
+        background-color: #24053E;
+        color: #44FFA1;
+        border: 1px solid #44FFA1;
+    }
 }
+
+
 
 
 
